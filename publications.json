@@ -1,0 +1,19 @@
+{
+  "publications": [
+    {
+      "title": "Conditioned Initialization for Attention",
+      "venue": "ICLR 2026",
+      "link": "https://openreview.net/forum?id=cKNOCYPo2W"
+    },
+    {
+      "title": "Structured Initialization for Vision Transformers",
+      "venue": "NeurIPS 2025",
+      "link": "https://openreview.net/forum?id=fmQFCXAe4v"
+    },
+    {
+      "title": "Efficient Learning with Sine-Activated Low-Rank Matrices",
+      "venue": "ICLR 2025",
+      "link": "https://openreview.net/forum?id=cWGCkd7mCp"
+    }
+  ]
+}
