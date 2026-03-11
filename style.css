@@ -205,3 +205,33 @@ li + li {
     width: min(calc(100% - 32px), var(--max));
   }
 }
+
+.publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.publication-item {
+  margin-bottom: 1.25rem;
+}
+
+.pub-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.pub-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-meta {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
