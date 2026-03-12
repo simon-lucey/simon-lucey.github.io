@@ -12,168 +12,164 @@
       <a class="site-name" href="index.html">Simon Lucey</a>
       <nav class="nav">
         <a href="index.html">Home</a>
-        <a href="admissions.html">Graduate Admissions</a>
+        <a href="admissions.html">Research Degrees</a>
         <a href="#publications">Publications</a>
+        <a href="#talks">Talks</a>
       </nav>
     </div>
   </header>
 
   <main>
-<section class="hero container">
-  <div class="hero-copy">
-    <p class="eyebrow">Adelaide University · AIML · Carnegie Mellon University</p>
-    <h1>Foundations of Machine Learning and Vision</h1>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Adelaide University · AIML · Carnegie Mellon University</p>
+        <h1>Foundations of Machine Learning and Vision</h1>
 
-    <p class="hero-credentials">
-      Director, Australian Institute for Machine Learning (AIML)<br />
-      Professor, School of Computer Science and IT, Adelaide University<br />
-      Courtesy Faculty, Robotics Institute, Carnegie Mellon University
-    </p>
+        <p class="hero-credentials">
+          Director, Australian Institute for Machine Learning (AIML)<br />
+          Professor, School of Computer Science & IT, Adelaide University<br />
+          Courtesy Faculty, Robotics Institute, Carnegie Mellon University
+        </p>
 
-    <p class="lead">
-      This site outlines my research on the foundations of machine learning and computer vision, with a focus on
-      efficient learning, representation, and reliable AI systems, together with selected publications and information
-      for prospective research students.
-    </p>
+        <p class="lead">
+          This site outlines my research on the foundations of machine learning and computer vision, with a focus on efficient learning, representation, and reliable AI systems, together with selected publications and information for prospective research students.
+        </p>
 
-    <div class="hero-links">
-      <a href="https://dblp.org/pid/01/3542.html" target="_blank" rel="noreferrer">DBLP</a>
-      <a href="https://scholar.google.com/citations?user=vmAe35UAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer">Google Scholar</a>
-      <a href="admissions.html">Graduate Admissions</a>
-    </div>
-  </div>
-  <div class="hero-image-wrap">
-    <img class="hero-image" src="assets/headshot.jpg" alt="Portrait of Simon Lucey" />
-  </div>
-</section>
-    
-    <section class="section container" id="about">
-    <h2>About</h2>
-    <p>
-      My research focuses on the foundations of machine learning and computer vision,
-      with an emphasis on data-efficient learning, representation, and reliable AI systems.
-      I develop principled methods that combine mathematical structure with scalable
-      learning algorithms for real-world impact.
-    </p>
+        <div class="hero-links">
+          <a href="https://dblp.org/pid/01/3542.html" target="_blank" rel="noreferrer">DBLP</a>
+          <a href="https://scholar.google.com/citations?user=vmAe35UAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="admissions.html">Research Degrees</a>
+        </div>
+      </div>
 
-    <div class="tag-row">
-      <a href="research.html#ml">Machine Learning</a>
-      <a href="research.html#vision">Computer Vision</a>
-      <a href="research.html#foundations">Foundational AI</a>
-      <a href="research.html#efficiency">Efficient Learning</a>
-      <a href="research.html#adaptation">Model Adaptation</a>
-    </div>
+      <div class="hero-image-wrap">
+        <img class="hero-image" src="assets/headshot.jpg" alt="Portrait of Simon Lucey" />
+      </div>
     </section>
 
-  <section class="section container" id="publications">
-    <h2>Recent Publications</h2>
-    <p>Recent papers from top-tier venues.</p>
-    <div id="selected-publications">
-    <p>Loading publications...</p>
-    </div>
-  </section>
+    <section class="section container" id="about">
+      <h2>About</h2>
+      <p>
+        My research focuses on the foundations of machine learning and computer vision, with an emphasis on data-efficient learning, representation, and reliable AI systems. I develop principled methods that combine mathematical structure with scalable learning algorithms for real-world impact.
+      </p>
+
+      <div class="tag-row">
+        <a href="research.html#ml">Machine Learning</a>
+        <a href="research.html#vision">Computer Vision</a>
+        <a href="research.html#foundations">Foundational AI</a>
+        <a href="research.html#efficiency">Efficient Learning</a>
+        <a href="research.html#adaptation">Model Adaptation</a>
+      </div>
+    </section>
+
+    <section class="section container" id="publications">
+      <h2>Recent Publications</h2>
+      <p>Recent papers from top-tier venues.</p>
+      <div id="selected-publications">
+        <p>Loading publications...</p>
+      </div>
+    </section>
+
+    <section class="section container" id="talks">
+      <h2>Recent Talks</h2>
+
+      <div class="talk-item">
+        <div class="talk-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JOVPWLBIo5Q"
+            title="Simon Lucey CMU Talk"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="talk-description">
+          <h3>Foundations of Modern AI Systems</h3>
+          <p>
+            Robotics Institute Seminar, Carnegie Mellon University. This talk discusses foundational challenges in modern machine learning and computer vision, including data efficiency, reliability, and the mathematical structure underlying contemporary AI systems.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script>
-  async function loadSelectedPublications() {
-    const target = document.getElementById("selected-publications");
+    async function loadSelectedPublications() {
+      const target = document.getElementById("selected-publications");
 
-  const venueMap = {
-    "CVPR": "CVPR",
-    "ICCV": "ICCV",
-    "ECCV": "ECCV",
-    "NeurIPS": "NeurIPS",
-    "NIPS": "NeurIPS",
-    "ICML": "ICML",
-    "ICLR": "ICLR",
-    "AAAI": "AAAI"
-  };
+      const venueMap = {
+        "CVPR": "CVPR",
+        "ICCV": "ICCV",
+        "ECCV": "ECCV",
+        "NeurIPS": "NeurIPS",
+        "NIPS": "NeurIPS",
+        "ICML": "ICML",
+        "ICLR": "ICLR",
+        "AAAI": "AAAI"
+      };
 
-  const allowedVenues = new Set(Object.keys(venueMap));
+      const allowedVenues = new Set(Object.keys(venueMap));
 
-  try {
-    const response = await fetch("https://dblp.org/pid/01/3542.xml");
-    const xmlText = await response.text();
+      try {
+        const response = await fetch("https://dblp.org/pid/01/3542.xml");
+        const xmlText = await response.text();
 
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, "text/xml");
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(xmlText, "text/xml");
 
-    const records = Array.from(
-      xml.querySelectorAll("r > article, r > inproceedings")
-    );
+        const records = Array.from(
+          xml.querySelectorAll("r > article, r > inproceedings")
+        );
 
-    const papers = records.map((record) => {
-      const title = record.querySelector("title")?.textContent?.trim() || "";
-      const year = parseInt(record.querySelector("year")?.textContent || "0", 10);
-      const venue =
-        record.querySelector("booktitle")?.textContent?.trim() ||
-        record.querySelector("journal")?.textContent?.trim() ||
-        "";
-      const ee = record.querySelector("ee")?.textContent?.trim() || "";
-      const authors = Array.from(record.querySelectorAll("author"))
-        .map((a) => a.textContent.trim())
-        .join(", ");
+        const papers = records.map((record) => {
+          const title = record.querySelector("title")?.textContent?.trim() || "";
+          const year = parseInt(record.querySelector("year")?.textContent || "0", 10);
+          const venue =
+            record.querySelector("booktitle")?.textContent?.trim() ||
+            record.querySelector("journal")?.textContent?.trim() ||
+            "";
+          const ee = record.querySelector("ee")?.textContent?.trim() || "";
+          const authors = Array.from(record.querySelectorAll("author"))
+            .map((a) => a.textContent.trim())
+            .join(", ");
 
-      return { title, year, venue, ee, authors };
-    });
+          return { title, year, venue, ee, authors };
+        });
 
-    const filtered = papers
-      .filter((p) => allowedVenues.has(p.venue))
-      .sort((a, b) => b.year - a.year)
-      .slice(0, 5);
+        const filtered = papers
+          .filter((p) => allowedVenues.has(p.venue))
+          .sort((a, b) => b.year - a.year)
+          .slice(0, 5);
 
-    if (filtered.length === 0) {
-      target.innerHTML = "<p>No matching publications found.</p>";
-      return;
+        if (filtered.length === 0) {
+          target.innerHTML = "<p>No matching publications found.</p>";
+          return;
+        }
+
+        target.innerHTML = `
+          <ul class="publication-list">
+            ${filtered.map((p) => `
+              <li class="publication-item">
+                <div class="pub-title">
+                  ${p.ee ? `<a href="${p.ee}" target="_blank" rel="noopener noreferrer">${p.title}</a>` : p.title}
+                </div>
+                <div class="pub-meta">
+                  ${p.authors}<br>
+                  <strong>${venueMap[p.venue]}</strong> ${p.year}
+                </div>
+              </li>
+            `).join("")}
+          </ul>
+        `;
+      } catch (error) {
+        console.error(error);
+        target.innerHTML = "<p>Unable to load publications at the moment.</p>";
+      }
     }
 
-    target.innerHTML = `
-      <ul class="publication-list">
-        ${filtered.map((p) => `
-          <li class="publication-item">
-            <div class="pub-title">
-              ${p.ee ? `<a href="${p.ee}" target="_blank" rel="noopener noreferrer">${p.title}</a>` : p.title}
-            </div>
-            <div class="pub-meta">
-              ${p.authors}<br>
-              ${venueMap[p.venue]} ${p.year}
-            </div>
-          </li>
-        `).join("")}
-      </ul>
-    `;
-  } catch (error) {
-    console.error(error);
-    target.innerHTML = "<p>Unable to load publications at the moment.</p>";
-  }
-}
-
-loadSelectedPublications();
-</script>
-
-<section class="section container" id="talks">
-  <h2>Recent Talks</h2>
-
-  <div class="talk-item">
-    <div class="talk-video">
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/JOVPWLBIo5Q"
-        title="Simon Lucey CMU Talk"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <div class="talk-description">
-      <h3>Foundations of Modern AI Systems</h3>
-      <p>
-        Vision and Autonomous Systems Seminar, Carnegie Mellon University.
-        This talk discusses foundational challenges in modern machine learning
-        and computer vision, including data efficiency, reliability, and the
-        mathematical structure underlying contemporary AI systems.
-      </p>
-    </div>
-  </div>
-</section>
+    loadSelectedPublications();
+  </script>
 
   <script src="script.js"></script>
 </body>
