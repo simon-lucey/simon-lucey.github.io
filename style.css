@@ -101,6 +101,7 @@ h1 {
 
 .page-title {
   font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1.2rem;   /* added spacing under page titles */
 }
 
 .hero-credentials {
